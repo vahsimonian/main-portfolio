@@ -1,7 +1,13 @@
+import Footer from "./Footer";
+import Home from "./Home";
+import Navbar from "./Navbar";
+
 function App() {
   return (
-    <div className="code">
-      This is going to be my job-finder portfolio! I am definite about it!
+    <div>
+      <Navbar />
+      <Home />
+      <Footer />
     </div>
   );
 }

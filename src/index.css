@@ -21,6 +21,7 @@ body {
 .code2 {
   width: 50%;
   background-color: #015025;
+  align-self: start;
   color: white;
 }
 

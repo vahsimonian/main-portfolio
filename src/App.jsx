@@ -3,13 +3,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 
 function App() {
-  return (
-    <div>
-      <Navbar />
-      <Home />
-      <Footer />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;

@@ -8,9 +8,9 @@ function Intro() {
   return (
     <section id="intro">
       <div className="intro-content">
-        <span className="hello">Hello</span>
-        <span className="intro-text">I'm</span>
-        <span className="intr-name">Vah</span>
+        <span className="hello"> Hello, </span>
+        <span className="intro-text"> I'm </span>
+        <span className="intr-name"> Vah </span>
         <br /> Web-developer
         <p className="intro-para">
           I am a React JS web developer with 2.5 years' experience.
@@ -22,7 +22,7 @@ function Intro() {
           </button>
         </Link>
       </div>
-      <img src={me} alt="profile" className="profile" />
+      <img src={me} alt="me" className="me" />
     </section>
   );
 }

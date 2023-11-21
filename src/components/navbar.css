@@ -44,6 +44,7 @@
   border-bottom: 3px solid rgb(230, 194, 12);
   padding-bottom: 0.5rem;
 }
+
 .desktop-menu-btn {
   font-family: "Iceland", sans-serif;
   font-weight: bold;
@@ -54,19 +55,19 @@
   padding: 7.5px 5px;
   border-radius: 25px;
   cursor: pointer;
+  transition: all 0.5sec ease-in-out;
 }
 
+.desktop-menu-btn:hover {
+  background: -webkit-linear-gradient(top, yellow, orange);
+}
 .desktop-menu-btn > span {
   margin-inline-end: 7.5px;
   font-size: 1.3rem;
 }
 
 .contact-me-btn {
-  background: -webkit-linear-gradient(top, yellow, orange);
+  /* background: -webkit-linear-gradient(top, yellow, orange);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.desktop-menu-img {
-  /* background-color: #fff; */
+  -webkit-text-fill-color: transparent; */
 }

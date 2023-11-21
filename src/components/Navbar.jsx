@@ -19,7 +19,7 @@ function Navbar() {
       </div>
       <div className="contact-me-btn">
         <button className="desktop-menu-btn">
-          <img src={contactMe} alt="" className="desktop-menu-img" />
+          <img src={contactMe} alt="text" />
           <span>Contact Me</span>
         </button>
       </div>

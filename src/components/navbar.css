@@ -60,14 +60,9 @@
 
 .desktop-menu-btn:hover {
   background: -webkit-linear-gradient(top, yellow, orange);
+  border-bottom: 1px solid yellow;
 }
 .desktop-menu-btn > span {
   margin-inline-end: 7.5px;
   font-size: 1.3rem;
-}
-
-.contact-me-btn {
-  /* background: -webkit-linear-gradient(top, yellow, orange);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }

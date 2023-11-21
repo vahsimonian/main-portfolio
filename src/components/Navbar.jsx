@@ -17,12 +17,10 @@ function Navbar() {
         <Link className="desktom-menu-list-item">Customers</Link>
         <Link className="desktom-menu-list-item">Portfolio</Link>
       </div>
-      <div className="contact-me-btn">
-        <button className="desktop-menu-btn">
-          <img src={contactMe} alt="text" />
-          <span>Contact Me</span>
-        </button>
-      </div>
+      <button className="desktop-menu-btn">
+        <img src={contactMe} alt="text" />
+        <span>Contact Me</span>
+      </button>
     </nav>
   );
 }

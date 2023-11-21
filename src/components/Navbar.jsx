@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import letterV from "../assets/letter-v.png";
+// import letterV from "../assets/letter-v.png";
 import { Link } from "react-scroll";
 import contactMe from "../assets/chat-3-line.png";
 

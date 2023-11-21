@@ -7,7 +7,10 @@ import contactMe from "../assets/chat-3-line.png";
 function Navbar() {
   return (
     <nav className="navbar">
-      <img src={letterV} alt="logo" className="logo" />
+      {/* <img src={letterV} alt="logo" className="logo" /> */}
+      <div className="v-container">
+        <span className="letter-v">V.</span>{" "}
+      </div>
       <div className="desktop-menu">
         <Link className="desktom-menu-list-item">Home</Link>
         <Link className="desktom-menu-list-item">About</Link>

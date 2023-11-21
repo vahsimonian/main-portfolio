@@ -10,39 +10,54 @@
   position: sticky;
   top: 0;
   z-index: 3;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
-.logo {
+/* .logo {
   object-fit: cover;
   height: 3rem;
   width: 4rem;
+} */
+
+.v-container {
+  font-size: 5rem;
+  font-weight: 100;
+  font-family: "Arvo", serif;
+  background: -webkit-linear-gradient(top, yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .desktom-menu-list-item {
   margin: 10px;
   cursor: pointer;
   padding: 5px;
-  gap: 2px;
+  font-size: 1.3rem;
+  transition: all 0.1s ease-in-out;
 }
 
 .desktom-menu-list-item:hover {
-  color: yellow;
+  background: -webkit-linear-gradient(top, yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid rgb(230, 194, 12);
 }
 .desktop-menu-btn {
+  font-family: "Iceland", sans-serif;
+  font-weight: bold;
   background-color: #fff;
   display: flex;
   align-items: center;
   gap: 5px;
   padding: 7.5px 5px;
   border-radius: 25px;
-  font-weight: bold;
+  cursor: pointer;
 }
 
 .desktop-menu-btn > span {
   margin-inline-end: 7.5px;
-  font-family: "Iceland", sans-serif;
   font-size: 1.3rem;
 }
 

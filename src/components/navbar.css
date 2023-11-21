@@ -55,14 +55,17 @@
   padding: 7.5px 5px;
   border-radius: 25px;
   cursor: pointer;
-  transition: all 0.5sec ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .desktop-menu-btn:hover {
   background: -webkit-linear-gradient(top, yellow, orange);
-  border-bottom: 1px solid yellow;
 }
 .desktop-menu-btn > span {
   margin-inline-end: 7.5px;
   font-size: 1.3rem;
+}
+
+.contact-me-btn {
+  transition: all 0.5s ease-in-out;
 }

@@ -11,4 +11,5 @@ body {
   color: white;
   overflow: hidden;
   overflow-y: scroll;
+  font-family: "IBM Plex Mono", monospace;
 }

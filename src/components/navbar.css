@@ -1,6 +1,7 @@
 .navbar {
   height: 5rem;
   width: 100vw;
+  max-width: 75rem;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
@@ -15,4 +16,36 @@
   object-fit: cover;
   height: 3rem;
   width: 4rem;
+}
+
+.desktom-menu-list-item {
+  margin: 10px;
+  cursor: pointer;
+  padding: 5px;
+  gap: 2px;
+}
+
+.desktom-menu-list-item:hover {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+.desktop-menu-btn {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7.5px 5px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.desktop-menu-btn > span {
+  margin-inline-end: 7.5px;
+  font-family: "Iceland", sans-serif;
+  font-size: 1.3rem;
+}
+
+.desktop-menu-img {
+  /* background-color: #fff; */
 }

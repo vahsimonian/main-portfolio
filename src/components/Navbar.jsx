@@ -2,20 +2,21 @@ import React from "react";
 import "./navbar.css";
 import letterV from "../assets/letter-v.png";
 import { Link } from "react-scroll";
+import contactMe from "../assets/chat-3-line.png";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <img src={letterV} alt="logo" className="logo" />
       <div className="desktop-menu">
-        <Link classID="desktom-menu-list-item">Home</Link>
-        <Link classID="desktom-menu-list-item">About</Link>
-        <Link classID="desktom-menu-list-item">Customers</Link>
-        <Link classID="desktom-menu-list-item">Portfolio</Link>
+        <Link className="desktom-menu-list-item">Home</Link>
+        <Link className="desktom-menu-list-item">About</Link>
+        <Link className="desktom-menu-list-item">Customers</Link>
+        <Link className="desktom-menu-list-item">Portfolio</Link>
       </div>
       <button className="desktop-menu-btn">
-        <img src="" alt="" className="desktop-menu-img" />
-        Contact Me
+        <img src={contactMe} alt="" className="desktop-menu-img" />
+        <span>Contact Me</span>
       </button>
     </nav>
   );

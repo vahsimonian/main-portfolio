@@ -9,11 +9,11 @@
 .me {
   position: absolute;
   bottom: 10rem;
-  /* width: 700px; */
-  right: -5rem;
+  right: 5rem;
   z-index: -1;
-  /* object-fit: cover; */
-  height: 75vh;
+  height: 45vh;
+  border-radius: 150px;
+  background-color: rgb(36, 36, 36);
 }
 
 .intro-content {
@@ -32,13 +32,15 @@
 }
 
 .intro-name {
-  color: yellow;
+  background: -webkit-linear-gradient(top, yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .intro-para {
   font-size: medium;
-  font-weight: 100;
   margin-top: 2px;
+  font-style: italic;
 }
 
 .btn {
@@ -53,6 +55,10 @@
   font-family: "Arvo", serif;
   font-weight: bold;
   cursor: pointer;
+}
+
+.btn:hover {
+  background: -webkit-linear-gradient(top, yellow, orange);
 }
 
 .btn-img {

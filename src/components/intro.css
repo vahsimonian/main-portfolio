@@ -41,6 +41,9 @@
   font-size: medium;
   margin-top: 2px;
   font-style: italic;
+  background: -webkit-linear-gradient(top, yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .btn {

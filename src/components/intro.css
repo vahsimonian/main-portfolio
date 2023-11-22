@@ -10,7 +10,7 @@
   position: absolute;
   bottom: 10rem;
   /* width: 700px; */
-  right: 1rem;
+  right: -5rem;
   z-index: -1;
   /* object-fit: cover; */
   height: 75vh;
@@ -38,18 +38,20 @@
 .intro-para {
   font-size: medium;
   font-weight: 100;
+  margin-top: 2px;
 }
 
 .btn {
   display: flex;
   background: #fff;
   margin: 1rem 0;
-  padding: 0.75rem 1.5rem;
+  padding: 0.6rem 1.1rem;
   border: none;
   border-radius: 2rem;
   gap: 10px;
   font-size: 16px;
   font-family: "Arvo", serif;
+  font-weight: bold;
 }
 
 .btn-img {

@@ -8,11 +8,12 @@
 
 .me {
   position: absolute;
-  top: -4rem;
-  right: 0;
+  bottom: 10rem;
+  /* width: 700px; */
+  right: 1rem;
   z-index: -1;
-  object-fit: cover;
-  height: 100vh;
+  /* object-fit: cover; */
+  height: 75vh;
 }
 
 .intro-content {

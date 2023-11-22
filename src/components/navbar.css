@@ -55,7 +55,7 @@
   padding: 7.5px 5px;
   border-radius: 2rem;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  /* transition: all 0.5s ease-in-out; */
 }
 
 .desktop-menu-btn:hover {

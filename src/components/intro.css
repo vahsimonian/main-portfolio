@@ -13,7 +13,12 @@
   z-index: -1;
   height: 45vh;
   border-radius: 150px;
-  background-color: rgb(36, 36, 36);
+  /* background-color: rgb(36, 36, 36); */
+  transform: rotate(-10deg);
+  /* border: 10px solid black; */
+  border-width: 10px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #000, #000, rgb(30, 30, 30)) 1;
 }
 
 .intro-content {

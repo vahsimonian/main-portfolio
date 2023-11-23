@@ -26,7 +26,7 @@ function Skills() {
           />
           <div className="skill-bar-text">
             <h2>Web-Developer</h2>
-            <p>
+            <p className="skill-p">
               Developing dynamic, responsive web applications using React JS for
               optimal performance.
             </p>
@@ -41,7 +41,7 @@ function Skills() {
           />
           <div className="skill-bar-text">
             <h2>UI / UX design</h2>
-            <p>
+            <p className="skill-p">
               Creating intuitive, engaging interfaces enhances user experience
               and satisfaction in design.
             </p>
@@ -56,7 +56,7 @@ function Skills() {
           />
           <div className="skill-bar-text">
             <h2>App-Developer(beginner)</h2>
-            <p>
+            <p className="skill-p">
               As an app developer, I craft innovative React JS-based mobile
               applications.
             </p>

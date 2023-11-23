@@ -18,8 +18,8 @@
     #000,
     #000,
     #000,
-    rgb(20, 20, 20),
-    rgb(20, 20, 20)
+    rgb(10, 10, 10),
+    rgb(5, 5, 5)
   );
   transform: rotate(-10deg);
   overflow: hidden;
@@ -83,7 +83,7 @@
 @media screen and (max-width: 640px) {
   .me {
     /* position: absolute; */
-    right: 1rem;
+    right: 1.5rem;
   }
   .intro-content {
     font-size: 4rem;
@@ -95,12 +95,14 @@
 
 @media screen and (max-width: 480px) {
   .me {
-    right: -30vw;
+    height: 300px;
+    margin-bottom: 120px;
   }
 }
 
 @media screen and (max-width: 380px) {
   .me {
-    right: -60vw;
+    height: 200px;
+    margin-bottom: 250px;
   }
 }

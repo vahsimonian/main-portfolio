@@ -1,6 +1,6 @@
 .navbar {
   height: 5rem;
-  width: 100vw;
+  max-width: 100vw;
   max-width: 75rem;
   margin: 0 auto;
   padding: 3rem 2rem;
@@ -70,4 +70,13 @@
 
 .contact-me {
   padding: 2px 0;
+}
+
+@media screen and (max-width: 660px) {
+  .desktop-menu {
+    display: none;
+  }
+  .contact-me {
+    display: none;
+  }
 }

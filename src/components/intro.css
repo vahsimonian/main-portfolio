@@ -80,12 +80,27 @@
   height: 1.2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .me {
     /* position: absolute; */
     right: 1rem;
   }
   .intro-content {
     font-size: 4rem;
+  }
+  .hello {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .me {
+    right: -30vw;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .me {
+    right: -60vw;
   }
 }

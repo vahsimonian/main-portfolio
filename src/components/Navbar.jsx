@@ -10,6 +10,7 @@ function Navbar() {
       {/* <img src={letterV} alt="logo" className="logo" /> */}
       <div className="v-container">
         <span className="letter-v">V.</span>{" "}
+        {/* <span className="letter-v">Simon</span>{" "} */}
       </div>
       <div className="desktop-menu">
         <Link className="desktom-menu-list-item">Home</Link>

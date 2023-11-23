@@ -14,6 +14,7 @@ function Intro() {
           I'm <span className="intro-name"> Vah </span>
           <br /> Web-developer{" "}
         </span>
+        {/* <hr /> */}
         <p className="intro-para">
           I am a React JS web developer with 2.5 years' experience.
         </p>

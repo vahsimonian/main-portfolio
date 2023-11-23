@@ -42,21 +42,17 @@
 }
 
 .intro-name {
-  /* background: -webkit-linear-gradient(top, yellow, orange);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  color: rgb(212, 212, 6);
+  color: yellow;
+  font-weight: 100;
 }
 
 .intro-para {
   font-size: medium;
+  font-weight: 100;
   margin-top: 2px;
   font-style: italic;
-  /* background: -webkit-linear-gradient(top, yellow, orange);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
   color: yellow;
-  /* color: rgb(185, 185, 4); */
+  letter-spacing: 0.5px;
 }
 
 .btn {

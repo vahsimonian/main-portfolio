@@ -1,0 +1,4 @@
+.skill-bar {
+  display: flex;
+  flex-direction: column;
+}

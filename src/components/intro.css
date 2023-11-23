@@ -83,6 +83,9 @@
 @media screen and (max-width: 600px) {
   .me {
     /* position: absolute; */
-    right: -10rem;
+    right: 1rem;
+  }
+  .intro-content {
+    font-size: 4rem;
   }
 }

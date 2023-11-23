@@ -8,8 +8,7 @@
 
 body {
   background: rgb(30, 30, 30);
-  background-image: linear-gradient(to bottom, #000, #000, rgb(30, 30, 30));
-  background-image: no-repeat;
+  background: linear-gradient(to bottom, #000, #000, rgb(30, 30, 30));
   color: white;
   overflow: hidden;
   overflow-y: scroll;

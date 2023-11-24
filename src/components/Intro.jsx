@@ -3,6 +3,7 @@ import "./intro.css";
 import me from "../../src/assets/me.png";
 import { Link } from "react-scroll";
 import suitcaseLine from "../../src/assets/suitcase-line.png";
+import vah from "../assets/vah.jpg";
 
 function Intro() {
   return (
@@ -25,7 +26,7 @@ function Intro() {
           </button>
         </Link>
       </div>
-      <img src={me} alt="me" className="me" />
+      <img src={vah} alt="me" className="me" />
     </section>
   );
 }

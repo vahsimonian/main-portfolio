@@ -33,13 +33,13 @@ function Skills() {
                 for optimal performance.
               </p>
             </div>
-            <a
+            {/* <a
               href="https://www.youtube.com/channel/UCz6sUwLNSkB7V-Cp-nCQFqQ"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={vIconFill} alt="v-icon-fill" className="v-fill-icon" />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="skill-bar-icon">
@@ -57,13 +57,13 @@ function Skills() {
                 and satisfaction in design.
               </p>
             </div>
-            <a
+            {/* <a
               href="https://www.youtube.com/channel/UCz6sUwLNSkB7V-Cp-nCQFqQ"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={vIconFill} alt="v-icon-fill" className="v-fill-icon" />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="skill-bar-icon">
@@ -81,13 +81,13 @@ function Skills() {
                 applications. Just a beginner.
               </p>
             </div>
-            <a
+            {/* <a
               href="https://www.youtube.com/channel/UCz6sUwLNSkB7V-Cp-nCQFqQ"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={vIconFill} alt="v-icon-fill" className="v-fill-icon" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

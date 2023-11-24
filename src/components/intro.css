@@ -12,16 +12,16 @@
   right: 5rem;
   z-index: -1;
   height: 45vh;
-  border-radius: 150px;
-  background: linear-gradient(
+  border-radius: 50%;
+  /* background: linear-gradient(
     to bottom,
     #000,
     #000,
     #000,
     rgb(10, 10, 10),
     rgb(5, 5, 5)
-  );
-  transform: rotate(-10deg);
+  ); */
+  /* transform: rotate(-10deg); */
   overflow: hidden;
   padding: 15px;
 }
@@ -95,6 +95,7 @@
 
 @media screen and (max-width: 480px) {
   .me {
+    right: 2rem;
     height: 300px;
     margin-bottom: 120px;
   }

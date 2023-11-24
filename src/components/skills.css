@@ -83,3 +83,15 @@
     font-size: 2vh;
   }
 }
+
+.skill-bar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.v-fill-icon {
+  height: 2rem;
+  border-radius: 10px;
+  margin-inline-start: 5px;
+}

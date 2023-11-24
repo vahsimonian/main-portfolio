@@ -3,6 +3,7 @@ import "./skills.css";
 import uiuxDesign from "../assets/ui-ux-design.png";
 import appDesign from "../assets/app-design.png";
 import websiteDesign from "../assets/website-design.png";
+import vIconFill from "../assets/v-fill-icon.png";
 
 function Skills() {
   return (
@@ -17,49 +18,76 @@ function Skills() {
         dolores.
       </span>
       <div className="skill-bar-container">
-        <div className="skill-bar">
-          <img
-            src={websiteDesign}
-            alt="website-design"
-            className="skill-bar-img"
-            width={60}
-          />
-          <div className="skill-bar-text">
-            <h2>Web-Developer</h2>
-            <p className="skill-p">
-              Developing dynamic, responsive web applications using React JS for
-              optimal performance.
-            </p>
+        <div className="skill-bar-icon">
+          <div className="skill-bar">
+            <img
+              src={websiteDesign}
+              alt="website-design"
+              className="skill-bar-img"
+              width={60}
+            />
+            <div className="skill-bar-text">
+              <h2>Web-Developer</h2>
+              <p className="skill-p">
+                Developing dynamic, responsive web applications using React JS
+                for optimal performance.
+              </p>
+            </div>
+            <a
+              href="https://www.youtube.com/channel/UCz6sUwLNSkB7V-Cp-nCQFqQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={vIconFill} alt="v-icon-fill" className="v-fill-icon" />
+            </a>
           </div>
         </div>
-        <div className="skill-bar">
-          <img
-            src={uiuxDesign}
-            alt="ui-ux-design"
-            className="skill-bar-img"
-            width={60}
-          />
-          <div className="skill-bar-text">
-            <h2>UI / UX design</h2>
-            <p className="skill-p">
-              Creating intuitive, engaging interfaces enhances user experience
-              and satisfaction in design.
-            </p>
+        <div className="skill-bar-icon">
+          <div className="skill-bar">
+            <img
+              src={uiuxDesign}
+              alt="ui-ux-design"
+              className="skill-bar-img"
+              width={60}
+            />
+            <div className="skill-bar-text">
+              <h2>UI / UX design</h2>
+              <p className="skill-p">
+                Creating intuitive, engaging interfaces enhances user experience
+                and satisfaction in design.
+              </p>
+            </div>
+            <a
+              href="https://www.youtube.com/channel/UCz6sUwLNSkB7V-Cp-nCQFqQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={vIconFill} alt="v-icon-fill" className="v-fill-icon" />
+            </a>
           </div>
         </div>
-        <div className="skill-bar">
-          <img
-            src={appDesign}
-            alt="app-design"
-            className="skill-bar-img"
-            width={60}
-          />
-          <div className="skill-bar-text">
-            <h2>App-Developer(beginner)</h2>
-            <p className="skill-p">
-              As an app developer, I craft innovative React JS-based mobile
-              applications.
-            </p>
+        <div className="skill-bar-icon">
+          <div className="skill-bar">
+            <img
+              src={appDesign}
+              alt="app-design"
+              className="skill-bar-img"
+              width={60}
+            />
+            <div className="skill-bar-text">
+              <h2>App-Developer(beginner)</h2>
+              <p className="skill-p">
+                As an app developer, I craft innovative React JS-based mobile
+                applications. Just a beginner.
+              </p>
+            </div>
+            <a
+              href="https://www.youtube.com/channel/UCz6sUwLNSkB7V-Cp-nCQFqQ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={vIconFill} alt="v-icon-fill" className="v-fill-icon" />
+            </a>
           </div>
         </div>
       </div>

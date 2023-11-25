@@ -19,11 +19,15 @@ function Works() {
       </span>
       <div className="works-images">
         <img src={burgerShop} alt="burger-shop" className="works-img" />
-        <img src={bitcoinShop} alt="" className="works-img" />
-        <img src={houseShop} alt="" className="works-img" />
-        <img src={phoneShop} alt="" className="works-img" />
-        <img src={temperatureShop} alt="" className="works-img" />
-        <img src={vanShop} alt="" className="works-img" />
+        <img src={bitcoinShop} alt="bitcoin-shop" className="works-img" />
+        <img src={houseShop} alt="house-shop" className="works-img" />
+        <img src={phoneShop} alt="phone-shop" className="works-img" />
+        <img
+          src={temperatureShop}
+          alt="temperature-shop"
+          className="works-img"
+        />
+        <img src={vanShop} alt="van-shop" className="works-img" />
       </div>
     </section>
   );

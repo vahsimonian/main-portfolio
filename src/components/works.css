@@ -1,5 +1,34 @@
 #works {
+  margin: 0 auto;
   min-height: calc(100vh - 4rem);
   width: 100vw;
   max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.works-title {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.works-desc {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.works-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100w;
+  max-width: 65rem;
+}
+
+.works-img {
+  object-fit: cover;
 }

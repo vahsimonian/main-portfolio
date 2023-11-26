@@ -9,35 +9,27 @@
 .me {
   position: absolute;
   bottom: 10rem;
-  right: 5rem;
+  right: 10rem;
   z-index: -1;
   height: 45vh;
   border-radius: 50%;
-  /* background: linear-gradient(
-    to bottom,
-    #000,
-    #000,
-    #000,
-    rgb(10, 10, 10),
-    rgb(5, 5, 5)
-  ); */
-  /* transform: rotate(-10deg); */
   overflow: hidden;
   padding: 15px;
+  margin-bottom: 40px;
 }
 
 .intro-content {
   height: 100vh;
   width: 50vw;
   padding: 2rem;
-  font-size: 3rem;
+  font-size: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .hello {
-  font-size: 1.75rem;
+  font-size: 3rem;
   font-weight: 100;
 }
 

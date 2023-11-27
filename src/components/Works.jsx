@@ -18,17 +18,18 @@ function Works() {
         stone unturned in my pursuit of excellence.
       </span>
       <div className="works-images">
-        <img src={burgerShop} alt="burger-shop" className="works-img" />
-        <img src={bitcoinShop} alt="bitcoin-shop" className="works-img" />
-        <img src={houseShop} alt="house-shop" className="works-img" />
-        <img src={phoneShop} alt="phone-shop" className="works-img" />
+        <img src={burgerShop} alt="burger-shop" className="work-img" />
+        <img src={bitcoinShop} alt="bitcoin-shop" className="work-img" />
+        <img src={houseShop} alt="house-shop" className="work-img" />
+        <img src={phoneShop} alt="phone-shop" className="work-img" />
         <img
           src={temperatureShop}
           alt="temperature-shop"
-          className="works-img"
+          className="work-img"
         />
-        <img src={vanShop} alt="van-shop" className="works-img" />
+        <img src={vanShop} alt="van-shop" className="work-img" />
       </div>
+      <button className="works-btn">See More</button>
     </section>
   );
 }

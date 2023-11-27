@@ -31,9 +31,33 @@
   flex-wrap: wrap;
 }
 
-.works-img {
+.work-img {
   object-fit: cover;
-  height: 20rem;
+  height: 15rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
+}
+
+.works-btn {
+  padding: 0.5rem 2.5rem;
+  margin: 3rem 0;
+  border: none;
+  background-color: white;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Iceland", sans-serif;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.works-btn:hover {
+  background-color: yellow;
+  scale: 1.05;
+}
+
+@media screen and (max-width: 585px) {
+  .work-img {
+    height: 10rem;
+  }
 }

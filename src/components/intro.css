@@ -65,6 +65,7 @@
 
 .btn:hover {
   background-color: yellow;
+  scale: 1.05;
 }
 
 .btn-img {

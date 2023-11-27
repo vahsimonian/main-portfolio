@@ -58,6 +58,7 @@
 
 .desktop-menu-btn:hover {
   background-color: yellow;
+  scale: 1.05;
 }
 .desktop-menu-btn > span {
   margin-inline-end: 7.5px;

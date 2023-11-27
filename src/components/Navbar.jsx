@@ -1,6 +1,5 @@
 import React from "react";
 import "./navbar.css";
-// import letterV from "../assets/letter-v.png";
 import { Link } from "react-scroll";
 import contactMe from "../assets/chat-3-line.png";
 import vIcon from "../assets/v-empty-icon.png";
@@ -8,11 +7,8 @@ import vIcon from "../assets/v-empty-icon.png";
 function Navbar() {
   return (
     <nav className="navbar">
-      {/* <img src={letterV} alt="logo" className="logo" /> */}
       <div className="v-container">
-        {/* <span className="letter-v">V.</span>{" "} */}
         <img src={vIcon} alt="letter-v" className="v-icon" />
-        {/* <span className="letter-v">Simon</span>{" "} */}
       </div>
       <div className="desktop-menu">
         <Link
@@ -20,7 +16,7 @@ function Navbar() {
           to="intro"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-50}
           duration={500}
           className="desktom-menu-list-item"
         >
@@ -31,7 +27,7 @@ function Navbar() {
           to="skills"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-50}
           duration={500}
           className="desktom-menu-list-item"
         >
@@ -42,7 +38,7 @@ function Navbar() {
           to="customers"
           spy={true}
           smooth={true}
-          offset={-100}
+          // offset={-30}
           duration={500}
           className="desktom-menu-list-item"
         >
@@ -53,7 +49,7 @@ function Navbar() {
           to="works"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-50}
           duration={500}
           className="desktom-menu-list-item"
         >
@@ -65,7 +61,7 @@ function Navbar() {
         to="contact"
         spy={true}
         smooth={true}
-        offset={-100}
+        offset={-50}
         duration={500}
       >
         <button className="desktop-menu-btn">

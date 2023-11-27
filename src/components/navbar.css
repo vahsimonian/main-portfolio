@@ -77,3 +77,9 @@
   height: 5rem;
   margin-top: 15px;
 }
+
+.active {
+  color: yellow;
+  padding-bottom: 0.3rem;
+  border-bottom: 3px solid yellow;
+}

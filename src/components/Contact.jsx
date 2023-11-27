@@ -7,7 +7,7 @@ import walmartLogo from "../assets/walmart-logo.png";
 import facebookIcon from "../assets/facebook-line.png";
 import youtubeIcon from "../assets/youtube-line.png";
 import twitterIcon from "../assets/twitter-x-line.png";
-import instagramIcon from "../assets/instagram-line.png";
+import linkedIn from "../assets/linkedin-box-line.png";
 
 function Contact() {
   return (
@@ -47,7 +47,7 @@ function Contact() {
             <img src={facebookIcon} alt="" className="link" />
             <img src={youtubeIcon} alt="" className="link" />
             <img src={twitterIcon} alt="" className="link" />
-            <img src={instagramIcon} alt="" className="link" />
+            <img src={linkedIn} alt="" className="link" />
           </div>
         </form>
       </div>

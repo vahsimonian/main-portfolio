@@ -9,21 +9,25 @@
   flex-direction: column;
   justify-content: center;
   font-family: "Iceland", sans-serif;
+  margin-block: 4rem;
 }
 
 #customers {
-  padding: 2rem;
+  padding-inline: 2rem;
 }
 
-.customer-title,
 .customer-desc {
+  margin-inline: 1rem;
+}
+
+.customer-title {
   margin: 2rem;
 }
 
 .customer-img-container {
-  margin: 1rem 0;
+  margin-block-end: 4rem;
+  margin-block-start: 1rem;
   display: flex;
-  /* flex-wrap: wrap; */
 }
 
 .customer-img {
@@ -40,8 +44,10 @@
 
 .contact-desc {
   padding: 1rem;
+  margin-inline: 1rem;
   font-size: medium;
-  font-weight: 300;
+  font-weight: 100;
+  color: rgb(255, 255, 255, 0.65);
 }
 
 .contact-forms {

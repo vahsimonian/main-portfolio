@@ -26,10 +26,30 @@ function Contact() {
           <img src={walmartLogo} alt="walmart" className="customer-img" />
         </div>
       </div>
-      <div className="contact">
-        <input type="text" />
-        <input type="email" />
-        <input type="text" />
+      <div id="contact">
+        <h1 className="contact-title">Contact</h1>
+        <span className="contact-desc">
+          Fill out the form bellow to discuss my work opportunities
+        </span>
+        <form className="contact-forms">
+          <input type="text" className="name" placeholder="Your Name" />
+          <input type="email" className="email" placeholder="Your Email" />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            className="msg"
+          ></textarea>
+          <button className="submit-btn" type="submit" value={"Send"}>
+            Submit
+          </button>
+          <div className="link-container">
+            <img src={""} alt="" className="link" />
+            <img src={""} alt="" className="link" />
+            <img src={""} alt="" className="link" />
+            <img src={""} alt="" className="link" />
+          </div>
+        </form>
       </div>
     </section>
   );

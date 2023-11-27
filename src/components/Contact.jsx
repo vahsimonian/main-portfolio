@@ -4,6 +4,10 @@ import facebookLogo from "../assets/Facebook-Logo.png";
 import adobeLogo from "../assets/Adobe-logo.png";
 import microsoftLogo from "../assets/microsoft-logo.png";
 import walmartLogo from "../assets/walmart-logo.png";
+import facebookIcon from "../assets/facebook-line.png";
+import youtubeIcon from "../assets/youtube-line.png";
+import twitterIcon from "../assets/twitter-x-line.png";
+import instagramIcon from "../assets/instagram-line.png";
 
 function Contact() {
   return (
@@ -44,10 +48,10 @@ function Contact() {
             Submit
           </button>
           <div className="link-container">
-            <img src={""} alt="" className="link" />
-            <img src={""} alt="" className="link" />
-            <img src={""} alt="" className="link" />
-            <img src={""} alt="" className="link" />
+            <img src={facebookIcon} alt="" className="link" />
+            <img src={youtubeIcon} alt="" className="link" />
+            <img src={twitterIcon} alt="" className="link" />
+            <img src={instagramIcon} alt="" className="link" />
           </div>
         </form>
       </div>

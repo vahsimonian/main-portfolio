@@ -14,20 +14,11 @@
   font-weight: 600;
 }
 
-/* .logo {
-  object-fit: cover;
-  height: 3rem;
-  width: 4rem;
-} */
-
 .v-container {
   margin-top: 10px;
   font-size: 5rem;
   font-weight: 100;
   font-family: "Arvo", serif;
-  /* background: -webkit-linear-gradient(top, yellow, orange);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
 .desktom-menu-list-item {

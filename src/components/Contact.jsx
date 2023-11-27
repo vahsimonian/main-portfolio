@@ -41,7 +41,7 @@ function Contact() {
             className="msg"
           ></textarea>
           <button className="submit-btn" type="submit" value={"Send"}>
-            Submit
+            Contact Me
           </button>
           <div className="link-container">
             <img src={facebookIcon} alt="" className="link" />

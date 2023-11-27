@@ -15,15 +15,64 @@ function Navbar() {
         {/* <span className="letter-v">Simon</span>{" "} */}
       </div>
       <div className="desktop-menu">
-        <Link className="desktom-menu-list-item">Home</Link>
-        <Link className="desktom-menu-list-item">About</Link>
-        <Link className="desktom-menu-list-item">Customers</Link>
-        <Link className="desktom-menu-list-item">Portfolio</Link>
+        <Link
+          activeClass="active"
+          to="intro"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktom-menu-list-item"
+        >
+          Home
+        </Link>
+        <Link
+          activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktom-menu-list-item"
+        >
+          About
+        </Link>
+        <Link
+          activeClass="active"
+          to="customers"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktom-menu-list-item"
+        >
+          Customers
+        </Link>
+        <Link
+          activeClass="active"
+          to="works"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktom-menu-list-item"
+        >
+          Portfolio
+        </Link>
       </div>
-      <button className="desktop-menu-btn">
-        <img src={contactMe} alt="text" />
-        <span className="contact-me">Contact Me</span>
-      </button>
+      <Link
+        activeClass="active"
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
+      >
+        <button className="desktop-menu-btn">
+          <img src={contactMe} alt="text" />
+          <span className="contact-me">Contact Me</span>
+        </button>
+      </Link>
     </nav>
   );
 }

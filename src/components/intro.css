@@ -49,6 +49,7 @@
 
 .btn {
   display: flex;
+  align-items: center;
   background: #fff;
   margin: 1rem 0;
   padding: 0.6rem 1.1rem;
@@ -74,7 +75,6 @@
 
 @media screen and (max-width: 640px) {
   .me {
-    /* position: absolute; */
     right: 1.5rem;
   }
   .intro-content {
@@ -88,14 +88,16 @@
 @media screen and (max-width: 480px) {
   .me {
     right: 2rem;
-    height: 300px;
-    margin-bottom: 120px;
+    height: 250px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 0.5rem 0.8rem;
   }
 }
 
 @media screen and (max-width: 380px) {
   .me {
     height: 200px;
-    margin-bottom: 250px;
   }
 }

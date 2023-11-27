@@ -18,17 +18,22 @@
 
 .works-desc {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  margin-bottom: 15px;
 }
 
 .works-images {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100w;
+  width: 100vw;
   max-width: 65rem;
+  flex-wrap: wrap;
 }
 
 .works-img {
   object-fit: cover;
+  height: 20rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
 }

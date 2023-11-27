@@ -4,19 +4,17 @@
   place-self: center;
   height: 110vh;
   max-width: 95vw;
-  /* border: 1px solid magenta; */
   display: flex;
   flex-direction: column;
   place-items: center;
   text-align: center;
   padding-inline: 50px;
-  /* background-color: black; */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
-    /* #000, */ /* #000, */ #000,
+    #000,
     rgb(20, 20, 20),
     rgb(30, 30, 30)
-  );
+  ); */
 }
 
 #skills > :nth-child(n) {

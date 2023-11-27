@@ -9,6 +9,12 @@
 body {
   background: rgb(30, 30, 30);
   background: linear-gradient(to bottom, #000, #000, rgb(30, 30, 30));
+  background: linear-gradient(
+    to bottom,
+    #000,
+    rgb(20, 20, 20),
+    rgb(30, 30, 30)
+  );
   color: white;
   overflow: hidden;
   overflow-y: scroll;

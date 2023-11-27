@@ -22,11 +22,7 @@ function Contact() {
         <div className="customer-img-container">
           <img src={facebookLogo} alt="facebook" className="customer-img" />
           <img src={adobeLogo} alt="adobe" className="customer-img" />
-          <img
-            src={microsoftLogo}
-            alt="microsoft"
-            className="customer-img microsoft"
-          />
+          <img src={microsoftLogo} alt="microsoft" className="customer-img" />
           <img src={walmartLogo} alt="walmart" className="customer-img" />
         </div>
       </div>

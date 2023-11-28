@@ -59,13 +59,13 @@ function Contact() {
             type="text"
             className="name"
             placeholder="Your Name"
-            name="user_name"
+            name="from_name"
           />
           <input
             type="email"
             className="email"
             placeholder="Your Email"
-            email="user_email"
+            email="from_email"
           />
           <textarea
             name="message"

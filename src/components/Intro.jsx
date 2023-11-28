@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import me from "../../src/assets/me.png";
+// import me from "../../src/assets/me.png";
 import { Link } from "react-scroll";
 import suitcaseLine from "../../src/assets/suitcase-line.png";
 import vah from "../assets/vah.jpg";

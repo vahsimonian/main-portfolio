@@ -6,7 +6,7 @@ import houseShop from "../assets/portfolio/house.png";
 import phoneShop from "../assets/portfolio/phone.png";
 import temperatureShop from "../assets/portfolio/temperature.png";
 import vanShop from "../assets/portfolio/van.png";
-import togetherIcon from "../assets/portfolio/together.png";
+// import togetherIcon from "../assets/portfolio/together.png";
 
 function Works() {
   return (

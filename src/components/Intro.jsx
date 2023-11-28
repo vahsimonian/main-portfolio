@@ -19,12 +19,16 @@ function Intro() {
         <p className="intro-para">
           I am a React JS web developer with 2.5 years' experience.
         </p>
-        <Link>
+        <a
+          rel="noreferrer"
+          href="https://github.com/vahsimonian"
+          target="_blank"
+        >
           <button className="btn">
             <img src={suitcaseLine} alt="suitcase" className="btn-img" />
             Hire Me
           </button>
-        </Link>
+        </a>
       </div>
       <img src={vah} alt="me" className="me" />
     </section>

@@ -92,14 +92,14 @@
   }
   #hamburger-icon {
     display: block;
+    transition: all 0.4s ease-in-out;
+  }
+  #hamburger-icon:hover {
+    scale: 1.1;
   }
 }
 .hamburger-icon {
   display: none;
-  transition: all 0.4s ease-in-out;
-}
-.hamburger-icon:hover {
-  scale: 1.1;
 }
 
 .v-icon {

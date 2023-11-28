@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
   return (
     <footer id="footer">
-      Copyroght &#169; 023 Vah Simonian. All rights reserved.
+      Copyright &#169; 2023 Vah Simonian. All rights reserved.
     </footer>
   );
 }

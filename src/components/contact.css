@@ -112,3 +112,15 @@
   border: 2px solid white;
   scale: 1.1;
 }
+
+.a {
+  color: #000;
+}
+
+.in-case {
+  font-weight: 100;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}

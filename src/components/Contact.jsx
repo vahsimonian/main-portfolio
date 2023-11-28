@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import facebookLogo from "../assets/Facebook-Logo.png";
 import adobeLogo from "../assets/Adobe-logo.png";
@@ -8,8 +8,31 @@ import facebookIcon from "../assets/facebook-line.png";
 import youtubeIcon from "../assets/youtube-line.png";
 import twitterIcon from "../assets/twitter-x-line.png";
 import linkedIn from "../assets/linkedin-box-line.png";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const form = useRef();
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ard2tba",
+        "template_hrkziuo",
+        form.current,
+        "dM22HkWqpyhfYEKx5"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
+
   return (
     <section id="contact-page">
       <div id="customers">
@@ -31,9 +54,19 @@ function Contact() {
         <span className="contact-desc">
           Fill out the form bellow to discuss my work opportunities
         </span>
-        <form className="contact-forms">
-          <input type="text" className="name" placeholder="Your Name" />
-          <input type="email" className="email" placeholder="Your Email" />
+        <form className="contact-forms" ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            className="name"
+            placeholder="Your Name"
+            name="user_name"
+          />
+          <input
+            type="email"
+            className="email"
+            placeholder="Your Email"
+            email="user_email"
+          />
           <textarea
             name="message"
             rows="5"
@@ -43,6 +76,15 @@ function Contact() {
           <button className="submit-btn" type="submit" value={"Send"}>
             Contact Me
           </button>
+          <p className="in-case">in case if ☝🏻 this doesn't work, go 👇🏼 and</p>
+          <a
+            href="mailto:vahsimonian@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className="submit-btn a"
+          >
+            Send me an Email
+          </a>
           <div className="link-container">
             <img src={facebookIcon} alt="" className="link" />
             <img src={youtubeIcon} alt="" className="link" />

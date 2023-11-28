@@ -38,9 +38,7 @@ function Contact() {
       <div id="customers">
         <h1 className="customer-title">Not My Customers</h1>
         <p className="customer-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          sapiente facilis eveniet, itaque rerum maxime deleniti! Similique nemo
-          ratione minus!
+          Cusotmers I would like to work one day with
         </p>
         <div className="customer-img-container">
           <img src={facebookLogo} alt="facebook" className="customer-img" />

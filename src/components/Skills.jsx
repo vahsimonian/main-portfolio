@@ -10,11 +10,12 @@ function Skills() {
       <span className="skill-title">What I do</span>
       <br />
       <span className="skill-desc">
-        I am skilled and passionate web-developer / designer Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Inventore ab in, delectus
-        aspernatur harum quam ipsa nobis quisquam id quas voluptas nihil at
-        assumenda adipisci dolorem quibusdam libero cumque deserunt ducimus
-        dolores.
+        As a dedicated and passionate junior web developer, you excel in
+        crafting innovative web solutions. Your skills in web design and
+        development, combined with a creative mindset, make you a valuable asset
+        to any team. Eager to apply your talents, you are actively seeking
+        opportunities to join the tech industry and contribute to exciting
+        projects.
       </span>
       <div className="skill-bar-container">
         <div className="skill-bar">

@@ -36,7 +36,7 @@ function Contact() {
   return (
     <section id="contact-page">
       <div id="customers">
-        <h1 className="customer-title">My Customers</h1>
+        <h1 className="customer-title">Not My Customers</h1>
         <p className="customer-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
           sapiente facilis eveniet, itaque rerum maxime deleniti! Similique nemo
@@ -59,13 +59,13 @@ function Contact() {
             type="text"
             className="name"
             placeholder="Your Name"
-            name="from_name"
+            name="user_name"
           />
           <input
             type="email"
             className="email"
             placeholder="Your Email"
-            email="from_email"
+            email="user_email"
           />
           <textarea
             name="message"
@@ -86,10 +86,34 @@ function Contact() {
             Send me an Email
           </a>
           <div className="link-container">
-            <img src={facebookIcon} alt="" className="link" />
-            <img src={youtubeIcon} alt="" className="link" />
-            <img src={twitterIcon} alt="" className="link" />
-            <img src={linkedIn} alt="" className="link" />
+            <a
+              href="https://web.facebook.com/vahxs/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={facebookIcon} alt="" className="link" />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCz6sUwLNSkB7V-Cp-nCQFqQ"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={youtubeIcon} alt="" className="link" />
+            </a>
+            <a
+              href="https://twitter.com/VahSimonian"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={twitterIcon} alt="" className="link" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/vahsimonian/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={linkedIn} alt="" className="link" />
+            </a>
           </div>
         </form>
       </div>

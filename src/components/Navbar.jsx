@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 import contactMe from "../assets/chat-3-line.png";
 import vIcon from "../assets/v-empty-icon.png";
 import hamburgerMenu from "../assets/menu-line.png";
+import hamburgerIcon from "../assets/hamburger-icon.png";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -72,11 +73,19 @@ function Navbar() {
         </button>
       </Link>
       {/* second link rpw */}
-      <img
+      {/* <img
         src={hamburgerMenu}
         alt="burger-menu"
         className="mob-menu"
         id="mob-menu"
+        onClick={() => setShowMenu(!showMenu)}
+      /> */}
+      <img
+        src={hamburgerIcon}
+        alt="burger-icon"
+        className="hamburger-icon"
+        id="hamburger-icon"
+        width={80}
         onClick={() => setShowMenu(!showMenu)}
       />
       <div

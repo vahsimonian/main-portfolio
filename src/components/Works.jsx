@@ -47,6 +47,7 @@ function Works() {
           <img src={phoneShop} alt="phone-shop" className="work-img" />
         </a>
         <a
+          id="a"
           href="https://master--rococo-strudel-89abf2.netlify.app/"
           target="_blank"
           rel="noreferrer"
@@ -65,7 +66,13 @@ function Works() {
           <img src={vanShop} alt="van-shop" className="work-img" />
         </a>
       </div>
-      <button className="works-btn">See More</button>
+      <a
+        href="https://astonishing-dusk-c9455b.netlify.app/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <button className="works-btn">See More</button>
+      </a>
     </section>
   );
 }

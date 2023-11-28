@@ -37,8 +37,11 @@
   height: 15rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
 }
-
+.work-img:hover {
+  scale: 1.075;
+}
 .works-btn {
   padding: 0.5rem 2.5rem;
   margin: 3rem 0;
@@ -54,7 +57,7 @@
 
 .works-btn:hover {
   background-color: yellow;
-  scale: 1.05;
+  scale: 1.2;
 }
 
 @media screen and (max-width: 585px) {

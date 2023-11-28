@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 import contactMe from "../assets/chat-3-line.png";
@@ -6,10 +6,12 @@ import vIcon from "../assets/v-empty-icon.png";
 import hamburgerMenu from "../assets/menu-line.png";
 
 function Navbar() {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="v-container">
-        <img src={vIcon} alt="letter-v" className="v-icon" />
+        <img src={vIcon} alt="letter-v" className="v-icon" id="v-icon" />
       </div>
       <div className="desktop-menu">
         <Link
@@ -36,16 +38,6 @@ function Navbar() {
         </Link>
         <Link
           activeClass="active"
-          to="customers"
-          spy={true}
-          smooth={true}
-          duration={500}
-          className="desktom-menu-list-item"
-        >
-          Customers
-        </Link>
-        <Link
-          activeClass="active"
           to="works"
           spy={true}
           smooth={true}
@@ -54,6 +46,16 @@ function Navbar() {
           className="desktom-menu-list-item"
         >
           Portfolio
+        </Link>
+        <Link
+          activeClass="active"
+          to="customers"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="desktom-menu-list-item"
+        >
+          Customers
         </Link>
       </div>
       <Link
@@ -69,11 +71,19 @@ function Navbar() {
           <span className="contact-me">Contact Me</span>
         </button>
       </Link>
-
       {/* second link rpw */}
-
-      <img src={hamburgerMenu} alt="burger-menu" className="mob-menu" />
-      <div className="desktop-menu">
+      <img
+        src={hamburgerMenu}
+        alt="burger-menu"
+        className="mob-menu"
+        id="mob-menu"
+        onClick={() => setShowMenu(!showMenu)}
+      />
+      <div
+        className="nav-menu"
+        id="nav-menu"
+        style={{ display: showMenu ? "flex" : "none" }}
+      >
         <Link
           activeClass="active"
           to="intro"
@@ -81,7 +91,8 @@ function Navbar() {
           smooth={true}
           offset={-50}
           duration={500}
-          className="desktom-menu-list-item"
+          className="list-item"
+          onClick={() => setShowMenu(false)}
         >
           Home
         </Link>
@@ -92,19 +103,10 @@ function Navbar() {
           smooth={true}
           offset={-50}
           duration={500}
-          className="desktom-menu-list-item"
+          className="list-item"
+          onClick={() => setShowMenu(false)}
         >
           About
-        </Link>
-        <Link
-          activeClass="active"
-          to="customers"
-          spy={true}
-          smooth={true}
-          duration={500}
-          className="desktom-menu-list-item"
-        >
-          Customers
         </Link>
         <Link
           activeClass="active"
@@ -113,9 +115,33 @@ function Navbar() {
           smooth={true}
           offset={-50}
           duration={500}
-          className="desktom-menu-list-item"
+          className="list-item"
+          onClick={() => setShowMenu(false)}
         >
           Portfolio
+        </Link>{" "}
+        <Link
+          activeClass="active"
+          to="customers"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="list-item"
+          onClick={() => setShowMenu(false)}
+        >
+          Customers
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          className="list-item"
+          onClick={() => setShowMenu(false)}
+        >
+          Contact
         </Link>
       </div>
     </nav>

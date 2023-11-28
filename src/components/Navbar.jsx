@@ -3,7 +3,7 @@ import "./navbar.css";
 import { Link } from "react-scroll";
 import contactMe from "../assets/chat-3-line.png";
 import vIcon from "../assets/v-empty-icon.png";
-import hamburgerMenu from "../assets/menu-line.png";
+// import hamburgerMenu from "../assets/menu-line.png";
 import hamburgerIcon from "../assets/hamburger-icon.png";
 
 function Navbar() {

@@ -1,0 +1,143 @@
+.navbar {
+  height: 50px;
+  max-width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  position: sticky;
+  z-index: 3;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.v-container {
+  margin-top: 10px;
+  font-size: 5rem;
+  font-weight: 100;
+  font-family: "Arvo", serif;
+}
+
+.desktom-menu-list-item {
+  margin: 10px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 1.3rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.desktom-menu-list-item:hover {
+  border-bottom: 3px solid yellow;
+  color: yellow;
+}
+
+.desktop-menu-btn {
+  font-family: "Iceland", sans-serif;
+  font-weight: bold;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7.5px 5px;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.desktop-menu-btn:hover {
+  background-color: yellow;
+  scale: 1.05;
+}
+.desktop-menu-btn > span {
+  margin-inline-end: 7.5px;
+  font-size: 1.3rem;
+}
+
+.contact-me-btn {
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-me {
+  padding: 2px 0;
+}
+
+@media screen and (max-width: 660px) {
+  .desktop-menu {
+    display: none;
+  }
+  .contact-me {
+    display: none;
+  }
+  .desktop-menu-btn {
+    display: none;
+  }
+  #mob-menu {
+    display: block;
+    background-color: yellow;
+    border: 3px solid #fff;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  #v-icon {
+    height: 4rem;
+  }
+
+  #nav-menu {
+    display: block;
+  }
+  #hamburger-icon {
+    display: block;
+    transition: all 0.4s ease-in-out;
+  }
+  #hamburger-icon:hover {
+    scale: 1.1;
+  }
+}
+.hamburger-icon {
+  display: none;
+}
+
+.v-icon {
+  height: 5rem;
+  margin-top: 15px;
+}
+
+.active {
+  color: yellow;
+  padding-bottom: 0.3rem;
+  border-bottom: 3px solid yellow;
+}
+.mob-menu {
+  display: none;
+  object-fit: cover;
+}
+.mob-menu:hover {
+  background-color: yellow;
+  scale: 1.1;
+}
+
+.nav-menu {
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width: 10rem;
+  background: rgb(40, 40, 40);
+  border-radius: 0.25rem;
+}
+
+.list-item {
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  margin: 0.25rem;
+  background-color: rgb(30, 30, 30);
+}

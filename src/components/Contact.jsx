@@ -9,8 +9,6 @@ import youtubeIcon from '../assets/youtube-line.png';
 import twitterIcon from '../assets/twitter-x-line.png';
 import linkedIn from '../assets/linkedin-box-line.png';
 import emailjs from '@emailjs/browser';
-// import emailjs from '@emailjs/browser';
-// import emailjs from '@emailjs/browser';
 
 function Contact() {
   const form = useRef();
